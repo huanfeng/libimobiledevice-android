@@ -1,0 +1,33 @@
+[submodule "libusbx"]
+	path = libusbx
+	url = https://github.com/libusbx/libusbx.git
+[submodule "usbmuxd"]
+	path = usbmuxd
+	url = https://github.com/lunzii/usbmuxd.git
+[submodule "libiconv-android"]
+	path = libiconv-android
+	url = https://github.com/xxDroid/libiconv-android.git
+[submodule "libxml2-android"]
+	path = libxml2-android
+	url = https://github.com/xxDroid/libxml2-android.git
+[submodule "libplist-android"]
+	path = libplist-android
+	url = https://github.com/xxDroid/libplist-android.git
+[submodule "openssl-android"]
+	path = openssl-android
+	url = https://github.com/xxDroid/openssl-android.git
+[submodule "libimobiledevice"]
+	path = libimobiledevice
+	url = https://github.com/lunzii/libimobiledevice.git
+[submodule "libzip-android"]
+	path = libzip-android
+	url = https://github.com/xxDroid/libzip-android.git
+[submodule "ideviceinstaller"]
+	path = ideviceinstaller
+	url = https://github.com/libimobiledevice/ideviceinstaller.git
+[submodule "ifuse"]
+	path = ifuse
+	url = https://github.com/libimobiledevice/ifuse.git
+[submodule "libfuse-android"]
+	path = libfuse-android
+	url = https://github.com/xxDroid/libfuse-android.git
