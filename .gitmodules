@@ -22,9 +22,6 @@
 [submodule "ideviceinstaller"]
 	path = ideviceinstaller
 	url = https://github.com/libimobiledevice/ideviceinstaller.git
-[submodule "ifuse"]
-	path = ifuse
-	url = https://github.com/libimobiledevice/ifuse.git
 [submodule "libfuse-android"]
 	path = libfuse-android
 	url = https://github.com/xxDroid/libfuse-android.git
