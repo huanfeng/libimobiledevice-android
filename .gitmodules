@@ -10,9 +10,6 @@
 [submodule "libxml2-android"]
 	path = libxml2-android
 	url = https://github.com/xxDroid/libxml2-android.git
-[submodule "libplist-android"]
-	path = libplist-android
-	url = https://github.com/xxDroid/libplist-android.git
 [submodule "openssl-android"]
 	path = openssl-android
 	url = https://github.com/xxDroid/openssl-android.git
@@ -31,3 +28,6 @@
 [submodule "libfuse-android"]
 	path = libfuse-android
 	url = https://github.com/xxDroid/libfuse-android.git
+[submodule "libplist"]
+	path = libplist
+	url = https://github.com/libimobiledevice/libplist.git
