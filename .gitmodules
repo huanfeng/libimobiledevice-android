@@ -28,3 +28,6 @@
 [submodule "libplist"]
 	path = libplist
 	url = https://github.com/libimobiledevice/libplist.git
+[submodule "ifuse"]
+	path = ifuse
+	url = https://lunzii@github.com/lunzii/ifuse.git
