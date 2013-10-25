@@ -2,37 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fca816f-1977-4da2-908e-2f4a92dca59b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/idevicedate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/idevicediagnostics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/ideviceid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/ideviceinfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/ideviceinstaller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/idevicepair" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/idevicescreenshot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/idevicesyslog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/ifuse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/iproxy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/listdevs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/openssl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/plistutil" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi-v7a/usbmuxdd" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/fusermount" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/idevicedate" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/idevicediagnostics" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/ideviceid" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/ideviceinfo" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/ideviceinstaller" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/idevicepair" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/idevicescreenshot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/idevicesyslog" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/ifuse" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/iproxy" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/listdevs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/openssl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/plistutil" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/android/libs/armeabi/usbmuxdd" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libimobiledevice" afterPath="$PROJECT_DIR$/libimobiledevice" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitmodules" afterPath="$PROJECT_DIR$/.gitmodules" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usbmuxd" afterPath="$PROJECT_DIR$/usbmuxd" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="libimobiledevice-android.iws" />
@@ -55,53 +25,7 @@
     <favorites_list name="libimobiledevice-android" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="debug.c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libimobiledevice/common/debug.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="6" selection-start="1257" selection-end="1257" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="2670">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="lockdown.c" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/libimobiledevice/src/lockdown.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="6" selection-start="1516" selection-end="1516" vertical-scroll-proportion="1.1788617" vertical-offset="345" max-vertical-offset="29745">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mobile_image_mounter.c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libimobiledevice/src/mobile_image_mounter.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="4380">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ideviceimagemounter.c" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/libimobiledevice/tools/ideviceimagemounter.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="6" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="8355">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="libimobiledevice.mk" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/jni/libimobiledevice.mk">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="40" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3390">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -129,11 +53,14 @@
         <option value="$PROJECT_DIR$/libimobiledevice/common/debug.c" />
         <option value="$PROJECT_DIR$/libimobiledevice/src/lockdown.c" />
         <option value="$PROJECT_DIR$/libimobiledevice/tools/ideviceimagemounter.c" />
+        <option value="$PROJECT_DIR$/usbmuxd/daemon/client.h" />
+        <option value="$PROJECT_DIR$/usbmuxd/daemon/device.h" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="22" />
+    <option name="x" value="136" />
+    <option name="y" value="68" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
@@ -178,120 +105,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tools" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="idevice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libimobiledevice-android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="android" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jni" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -350,14 +163,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1280" height="774" extended-state="0" />
+    <frame x="136" y="68" width="1280" height="774" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3730887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3730887" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25059667" sideWeight="0.62691134" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25059667" sideWeight="0.62691134" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -385,11 +198,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/libimobiledevice/tools/ideviceinfo.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="368" column="53" selection-start="9223" selection-end="9227" vertical-scroll-proportion="0.0" vertical-offset="4838" max-vertical-offset="6120" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ideviceinstaller/src/ideviceinstaller.c">
       <provider selected="true" editor-type-id="text-editor">
         <state line="620" column="53" selection-start="16161" selection-end="16162" vertical-scroll-proportion="-8.731975" vertical-offset="14871" max-vertical-offset="18825" />
@@ -449,28 +257,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/android/jni/libimobiledevice.mk">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="40" selection-start="331" selection-end="331" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3390">
+        <state line="14" column="40" selection-start="331" selection-end="331" vertical-scroll-proportion="0.33546326" vertical-offset="0" max-vertical-offset="3390">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libimobiledevice/tools/ideviceimagemounter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="6" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="8355">
+        <state line="41" column="6" selection-start="1381" selection-end="1381" vertical-scroll-proportion="0.5511182" vertical-offset="270" max-vertical-offset="8355">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libimobiledevice/src/mobile_image_mounter.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4380">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.41598696" vertical-offset="255" max-vertical-offset="4380">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/libimobiledevice/src/lockdown.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="6" selection-start="1516" selection-end="1516" vertical-scroll-proportion="1.1788617" vertical-offset="345" max-vertical-offset="29745">
+        <state line="52" column="6" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.70962477" vertical-offset="345" max-vertical-offset="29745">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usbmuxd/daemon/device.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="19" selection-start="1717" selection-end="1717" vertical-scroll-proportion="0.52715653" vertical-offset="585" max-vertical-offset="1485">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usbmuxd/daemon/device.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="19" selection-start="1035" selection-end="1035" vertical-scroll-proportion="0.09787928" vertical-offset="450" max-vertical-offset="12585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usbmuxd/daemon/client.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.37699682" vertical-offset="169" max-vertical-offset="795">
           <folding />
         </state>
       </provider>
