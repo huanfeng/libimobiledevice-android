@@ -15,10 +15,7 @@ LOCAL_CFLAGS := \
  -DANDROID
 
 LOCAL_SRC_FILES := \
- $(LIB_ROOT_REL)/org_uiautomation_iosdriver_services_DeviceManagerService.c \
- $(LIB_ROOT_REL)/org_uiautomation_iosdriver_services_DeviceInstallerService.c \
- $(LIB_ROOT_REL)/org_uiautomation_iosdriver_services_LoggerService.c \
- $(LIB_ROOT_REL)/org_uiautomation_iosdriver_services_WebInspectorService.c \
+ $(LIB_ROOT_REL)/DeviceManagerService.c \
 
 LOCAL_C_INCLUDES += \
  $(LIB_ROOT_ABS) \

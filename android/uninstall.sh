@@ -9,7 +9,7 @@ PATH_SYSTEM_BIN="/data/local/tmp"
 
 # Install so
 echo "----------Uninstall so--------------"
-for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so libfusemod_subdir.so
+for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so
 do
   adb shell rm "$PATH_SYSTEM_LIB/$S"
 done

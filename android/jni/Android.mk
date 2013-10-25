@@ -17,5 +17,5 @@ include $(LOCAL_PATH)/ideviceinstaller.mk
 include $(LOCAL_PATH)/libfuse.mk
 include $(LOCAL_PATH)/ifuse.mk
 
-#include $(LOCAL_PATH)/idevice.mk
+include $(LOCAL_PATH)/idevice.mk
 
