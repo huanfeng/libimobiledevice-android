@@ -13,9 +13,6 @@
 [submodule "openssl-android"]
 	path = openssl-android
 	url = https://github.com/xxDroid/openssl-android.git
-[submodule "libimobiledevice"]
-	path = libimobiledevice
-	url = https://github.com/lunzii/libimobiledevice.git
 [submodule "libzip-android"]
 	path = libzip-android
 	url = https://github.com/xxDroid/libzip-android.git
@@ -31,3 +28,6 @@
 [submodule "ifuse"]
 	path = ifuse
 	url = https://lunzii@github.com/lunzii/ifuse.git
+[submodule "libimobiledevice"]
+	path = libimobiledevice
+	url = https://lunzii@github.com/lunzii/libimobiledevice.git
