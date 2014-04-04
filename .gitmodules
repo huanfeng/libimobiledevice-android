@@ -31,3 +31,6 @@
 [submodule "libusbmuxd"]
 	path = libusbmuxd
 	url = https://lunzii@github.com/lunzii/libusbmuxd.git
+[submodule "ifuse"]
+	path = ifuse
+	url = https://github.com/libimobiledevice/ifuse.git
