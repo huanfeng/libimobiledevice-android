@@ -2,6 +2,7 @@
 
 LIB_USBMUXD_VERSION:=usbmuxd
 LIB_PLIST_VERSION:=libplist
+LIB_LIBUSBMUXD_VERSION:=libusbmuxd
 LIB_OPENSSL_VERSION:=openssl-android/openssl
 
 LIB_VERSION:=libimobiledevice
@@ -48,10 +49,10 @@ LOCAL_C_INCLUDES += \
  $(LIB_ROOT_ABS)/src \
  $(LIB_ROOT_ABS)/common \
  $(LIB_ROOT_ABS)/include \
- $(LIB_ROOT_ABS)/../$(LIB_USBMUXD_VERSION)/common \
- $(LIB_ROOT_ABS)/../$(LIB_USBMUXD_VERSION)/daemon \
- $(LIB_ROOT_ABS)/../$(LIB_USBMUXD_VERSION)/libusbmuxd \
  $(LIB_ROOT_ABS)/../$(LIB_PLIST_VERSION)/include \
+ $(LIB_ROOT_ABS)/../$(LIB_LIBUSBMUXD_VERSION)/include \
+ $(LIB_ROOT_ABS)/../$(LIB_LIBUSBMUXD_VERSION)/src \
+ $(LIB_ROOT_ABS)/../$(LIB_USBMUXD_VERSION)/src \
  $(LIB_ROOT_ABS)/../$(LIB_OPENSSL_VERSION) \
  $(LIB_ROOT_ABS)/../$(LIB_OPENSSL_VERSION)/include \
  $(LIB_ROOT_ABS)/../$(LIB_OPENSSL_VERSION)/ssl \

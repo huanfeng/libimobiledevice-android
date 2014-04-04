@@ -105,7 +105,7 @@ include $(BUILD_SHARED_LIBRARY)
 include $(CLEAR_VARS)
 
 LOCAL_SRC_FILES := \
- $(LIB_ROOT_REL)/plistutil/plistutil.c
+ $(LIB_ROOT_REL)/tools/plistutil.c
 
 LOCAL_C_INCLUDES := \
  $(LIB_ROOT_ABS)/plistutil \

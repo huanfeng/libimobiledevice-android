@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fca816f-1977-4da2-908e-2f4a92dca59b" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/usbmuxd" afterPath="$PROJECT_DIR$/usbmuxd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="7fca816f-1977-4da2-908e-2f4a92dca59b" name="Default" comment="" />
     <ignored path="libimobiledevice-android.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -59,8 +56,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="136" />
-    <option name="y" value="68" />
+    <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="774" />
   </component>
@@ -105,6 +101,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="libimobiledevice-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libimobiledevice-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="libimobiledevice-android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="idevice" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -163,7 +173,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="136" y="68" width="1280" height="774" extended-state="0" />
+    <frame x="0" y="22" width="1280" height="774" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -223,13 +233,6 @@
     <entry file="file://$PROJECT_DIR$/idevice/DeviceManagerService.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="33" selection-start="556" selection-end="556" vertical-scroll-proportion="0.49044585" vertical-offset="54" max-vertical-offset="525">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/idevice/DeviceManagerService.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="12" selection-start="1656" selection-end="1664" vertical-scroll-proportion="0.62227076" vertical-offset="645" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>
@@ -300,6 +303,13 @@
     <entry file="file://$PROJECT_DIR$/usbmuxd/daemon/client.h">
       <provider selected="true" editor-type-id="text-editor">
         <state line="27" column="0" selection-start="913" selection-end="913" vertical-scroll-proportion="0.37699682" vertical-offset="169" max-vertical-offset="795">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/idevice/DeviceManagerService.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="87" column="24" selection-start="2605" selection-end="2617" vertical-scroll-proportion="0.43719414" vertical-offset="1037" max-vertical-offset="1650">
           <folding />
         </state>
       </provider>

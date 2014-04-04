@@ -5,7 +5,7 @@ PATH_SYSTEM_LIB="/system/lib"
 PATH_SYSTEM_BIN="/data/local/tmp"
 
 # Make the system partition writable
-#adb shell su -c "mount -o remount,rw /system"
+adb shell su -c "mount -o remount,rw /system"
 
 # Install so
 echo "----------Install so--------------"
@@ -26,7 +26,7 @@ do
 done
 
 # Make the system partition read only again
-#adb shell su -c "mount -o remount,ro /system"
+adb shell su -c "mount -o remount,ro /system"
 
 # Run listdevs to
 #adb shell su -c "export LD_LIBRARY_PATH=\$LD_LIBRARY_PATH:$PATH_DEVICE"
