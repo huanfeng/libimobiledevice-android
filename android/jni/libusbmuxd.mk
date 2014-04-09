@@ -9,7 +9,7 @@ LIB_ROOT_ABS:= $(LOCAL_PATH)/../../$(LIB_VERSION)
 
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := -O2 -Wall -fPIC -lpthread -Dlibusbmuxd_EXPORTS -DHAVE_INOTIFY -DANDROID -DSO_NOSIGPIPE
+LOCAL_CFLAGS := -O2 -Wall -fPIC -lpthread -Dlibusbmuxd_EXPORTS -DHAVE_INOTIFY -DSO_NOSIGPIPE
 
 LOCAL_SRC_FILES := \
  $(LIB_ROOT_REL)/src/collection.c \
