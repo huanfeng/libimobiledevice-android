@@ -24,7 +24,7 @@ done
 
 # Install binary
 echo "----------Install binary--------------"
-for B in listdevs openssl usbmuxdd ideviceid ideviceinfo idevicedate idevicediagnostics idevicescreenshot idevicesyslog ideviceinstaller ifuse fusermount
+for B in listdevs openssl usbmuxdd ideviceid ideviceinfo idevicecrashreport idevicedate idevicename idevicediagnostics idevicescreenshot idevicesyslog ideviceinstaller ifuse fusermount
 do
   adb shell rm "$PATH_DEVICE_BIN/$B"
   adb push "$PATH_LOCAL_LIB/$B" $PATH_DEVICE_BIN
