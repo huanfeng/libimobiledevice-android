@@ -22,9 +22,6 @@
 [submodule "libimobiledevice"]
 	path = libimobiledevice
 	url = https://github.com/libimobiledevice/libimobiledevice.git
-[submodule "libusbmuxd"]
-	path = libusbmuxd
-	url = https://github.com/libimobiledevice/libusbmuxd.git
 [submodule "libusb"]
 	path = libusb
 	url = https://github.com/libusb/libusb.git
@@ -34,3 +31,6 @@
 [submodule "usbmuxd"]
 	path = usbmuxd
 	url = https://lunzii@github.com/lunzii/usbmuxd.git
+[submodule "libusbmuxd"]
+	path = libusbmuxd
+	url = https://lunzii@github.com/lunzii/libusbmuxd.git
