@@ -13,7 +13,7 @@ LIB_ROOT_ABS:= $(LOCAL_PATH)/../../$(LIB_VERSION)
 
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := -DHAVE_OPENSSL -DANDROID
+LOCAL_CFLAGS := -Wall -lpthread -DHAVE_OPENSSL -DANDROID
 
 LOCAL_SRC_FILES := \
  $(LIB_ROOT_REL)/src/afc.c \
@@ -59,7 +59,8 @@ LOCAL_C_INCLUDES += \
  $(LIB_ROOT_ABS)/../$(LIB_OPENSSL_VERSION)/apps \
  $(LIB_ROOT_ABS)/../$(LIB_OPENSSL_VERSION)/crypto
 
-LOCAL_SHARED_LIBRARIES := libusbmuxd libplist libssl libcrypto
+LOCAL_SHARED_LIBRARIES := libusbmuxd libplist libplist++ libssl libcrypto
+LOCAL_LDLIBS := -llog
 
 LOCAL_MODULE := libimobiledevice
 

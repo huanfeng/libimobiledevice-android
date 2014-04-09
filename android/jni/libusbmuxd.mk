@@ -9,7 +9,7 @@ LIB_ROOT_ABS:= $(LOCAL_PATH)/../../$(LIB_VERSION)
 
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := -Dlibusbmuxd_EXPORTS -DHAVE_INOTIFY -O2 -fPIC -Wall -lpthread -DANDROID
+LOCAL_CFLAGS := -O2 -Wall -fPIC -lpthread -Dlibusbmuxd_EXPORTS -DHAVE_INOTIFY -DANDROID -DSO_NOSIGPIPE
 
 LOCAL_SRC_FILES := \
  $(LIB_ROOT_REL)/src/collection.c \
@@ -23,6 +23,7 @@ LOCAL_C_INCLUDES += \
  $(LIB_ROOT_ABS)/../$(LIB_PLIST_VERSION)/include 
   
 LOCAL_SHARED_LIBRARIES := libc libplist
+LOCAL_LDLIBS := -llog
 
 LOCAL_MODULE := libusbmuxd
 
