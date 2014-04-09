@@ -5,7 +5,7 @@ include $(LOCAL_PATH)/libxml2.mk
 include $(LOCAL_PATH)/libplist.mk
 include $(LOCAL_PATH)/libusbmuxd.mk
 
-include $(LOCAL_PATH)/libusbx.mk
+include $(LOCAL_PATH)/libusb.mk
 
 include $(LOCAL_PATH)/openssl.mk
 

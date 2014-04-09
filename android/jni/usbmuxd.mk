@@ -1,7 +1,7 @@
 #usbmuxd
 LIB_PLIST_VERSION:=libplist
 LIB_LIBUSBMUXD_VERSION:=libusbmuxd
-LIB_USB_VERSION:=libusbx
+LIB_USB_VERSION:=libusb
 LIB_IMOBILEDEVICE_VERSION:=libimobiledevice
 
 LIB_VERSION:=usbmuxd
