@@ -107,12 +107,33 @@ LOCAL_MODULE := ideviceid
 include $(BUILD_EXECUTABLE)
 
 
+#idevicename
+
+include $(CLEAR_VARS)
+
+LOCAL_CFLAGS :=
+
+LOCAL_SRC_FILES := \
+ $(LIB_ROOT_REL)/tools/idevicename.c
+
+LOCAL_C_INCLUDES += \
+ $(LIB_ROOT_ABS) \
+ $(LIB_ROOT_ABS)/src \
+ $(LIB_ROOT_ABS)/include \
+ $(LIB_ROOT_ABS)/../$(LIB_PLIST_VERSION)/include \
+
+LOCAL_SHARED_LIBRARIES := libimobiledevice libplist
+
+LOCAL_MODULE := idevicename
+
+include $(BUILD_EXECUTABLE)
+
+
 #idevicepair
 
 include $(CLEAR_VARS)
 
-LOCAL_CFLAGS := \
- -DHAVE_OPENSSL
+LOCAL_CFLAGS :=
  
 LOCAL_SRC_FILES := \
  $(LIB_ROOT_REL)/tools/idevicepair.c
@@ -218,5 +239,27 @@ LOCAL_C_INCLUDES += \
 LOCAL_SHARED_LIBRARIES := libimobiledevice libplist
 
 LOCAL_MODULE := idevicesyslog
+
+include $(BUILD_EXECUTABLE)
+
+
+#idevicecrashreport
+
+include $(CLEAR_VARS)
+
+LOCAL_CFLAGS :=
+
+LOCAL_SRC_FILES := \
+ $(LIB_ROOT_REL)/tools/idevicecrashreport.c
+
+LOCAL_C_INCLUDES += \
+ $(LIB_ROOT_ABS) \
+ $(LIB_ROOT_ABS)/src \
+ $(LIB_ROOT_ABS)/include \
+ $(LIB_ROOT_ABS)/../$(LIB_PLIST_VERSION)/include \
+
+LOCAL_SHARED_LIBRARIES := libimobiledevice libplist
+
+LOCAL_MODULE := idevicecrashreport
 
 include $(BUILD_EXECUTABLE)
