@@ -1,6 +1,3 @@
-[submodule "usbmuxd"]
-	path = usbmuxd
-	url = https://github.com/lunzii/usbmuxd.git
 [submodule "libiconv-android"]
 	path = libiconv-android
 	url = https://github.com/xxDroid/libiconv-android.git
@@ -34,3 +31,6 @@
 [submodule "ifuse"]
 	path = ifuse
 	url = https://github.com/libimobiledevice/ifuse.git
+[submodule "usbmuxd"]
+	path = usbmuxd
+	url = https://lunzii@github.com/lunzii/usbmuxd.git
