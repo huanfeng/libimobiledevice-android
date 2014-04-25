@@ -19,9 +19,6 @@
 [submodule "libplist"]
 	path = libplist
 	url = https://github.com/libimobiledevice/libplist.git
-[submodule "libimobiledevice"]
-	path = libimobiledevice
-	url = https://github.com/libimobiledevice/libimobiledevice.git
 [submodule "libusb"]
 	path = libusb
 	url = https://github.com/libusb/libusb.git
@@ -34,3 +31,6 @@
 [submodule "libusbmuxd"]
 	path = libusbmuxd
 	url = https://lunzii@github.com/lunzii/libusbmuxd.git
+[submodule "libimobiledevice"]
+	path = libimobiledevice
+	url = https://linzii@github.com/lunzii/libimobiledevice.git
