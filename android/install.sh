@@ -18,7 +18,7 @@ adb shell su -c "mkdir /var/run"
 echo "----------Install so--------------"
 for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so
 do
-  adb shell rm "$PATH_DEVICE_LIB/$S"
+#  adb shell rm "$PATH_DEVICE_LIB/$S"
   adb push "$PATH_LOCAL_LIB/$S" $PATH_DEVICE_LIB
 done
 
@@ -27,7 +27,7 @@ done
 echo "----------Install binary--------------"
 for B in listdevs openssl usbmuxdd ideviceid ideviceinfo idevicecrashreport idevicedate idevicename idevicediagnostics idevicescreenshot idevicesyslog ideviceinstaller ifuse fusermount
 do
-  adb shell rm "$PATH_DEVICE_BIN/$B"
+#  adb shell rm "$PATH_DEVICE_BIN/$B"
   adb push "$PATH_LOCAL_LIB/$B" $PATH_DEVICE_BIN
   adb shell su -c "chmod 0755 $PATH_DEVICE_BIN/$B"
 done
@@ -46,4 +46,4 @@ adb shell su -c "$PATH_DEVICE_BIN/usbmuxdd -v"
 adb shell su -c "$PATH_DEVICE_BIN/ideviceid -l"
 
 echo "----------ls $PATH_DEVICE_BIN--------------"
-adb shell su -c "ls /vendor/bin"
+adb shell su -c "ls $PATH_DEVICE_BIN"

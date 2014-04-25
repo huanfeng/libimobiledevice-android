@@ -13,14 +13,14 @@ adb shell su -c "$PATH_DEVICE_BIN/usbmuxdd -x"
 echo "----------uninstall so--------------"
 for S in libiconv.so libxml2.so libplist.so libplist++.so libusb.so libusbmuxd.so libcrypto.so libssl.so libimobiledevice.so libzip.so
 do
-  adb shell rm "PATH_DEVICE_LIB/$S"
+  adb shell rm "$PATH_DEVICE_LIB/$S"
 done
 
 
 echo "----------uninstall binary--------------"
 for B in listdevs openssl usbmuxdd ideviceid ideviceinfo idevicecrashreport idevicedate idevicename idevicediagnostics idevicescreenshot idevicesyslog ideviceinstaller ifuse fusermount
 do
-  adb shell rm "PATH_DEVICE_BIN/$B"
+  adb shell rm "$PATH_DEVICE_BIN/$B"
 done
 
 # Make the system partition read only again
