@@ -5,11 +5,11 @@ PATH_DEVICE_LIB="/vendor/lib"
 PATH_DEVICE_BIN="/vendor/bin"
 
 # Make the system partition writable
-#adb shell su -c "mount -o remount,rw /system"
+#adb shell su -c "mount -o remount rw /vendor"
 
-# Init Env∂∂∂
+# Init Env
 adb shell su -c "mkdir /vendor/lib"
-adb shell su -c "mkdir /vendor/lib"
+adb shell su -c "mkdir /vendor/bin"
 adb shell su -c "mkdir /var/lib"
 adb shell su -c "mkdir /var/run"
 
@@ -32,7 +32,7 @@ do
 done
 
 # Make the system partition read only again
-#adb shell su -c "mount -o remount,ro /system"
+#adb shell su -c "mount -o remount ro /vendor"
 
 # Run listdevs to
 #export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/local/tmp
