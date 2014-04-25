@@ -10,6 +10,7 @@ PATH_DEVICE_BIN="/vendor/bin"
 # Init Env
 adb shell su -c "mkdir /vendor/lib"
 adb shell su -c "mkdir /vendor/bin"
+adb shell su -c "mkdir /var"
 adb shell su -c "mkdir /var/lib"
 adb shell su -c "mkdir /var/run"
 
